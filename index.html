@@ -1,0 +1,72 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WELLCOME TO TRAVEL FORM</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  </head>
+  <body>
+  
+
+    <div class="container">
+      <div class="bgOnly"><h1>Wellcome to Pakistan Travel form</h1>
+      <p>Enter your details to confirm your participation in the trip</p>
+    <p>Thanks for joining this fabulous trip </p></div>
+      <form action="mysql.php" method="post">
+        <input
+          type="text"
+          name="name"
+
+          id="name"
+          placeholder="Enter your name" required
+        />
+        <input type="text" name="age"  id="age" placeholder="Enter your age" required/>
+        <input
+          type="text"
+          name="gender"
+          id="gender"
+          placeholder="Enter your gender"required
+        />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email"
+          required
+        />
+        <input
+          type="phone"
+          name="phone"
+          id="phone"
+          placeholder="Enter your phone"
+        required/>
+        <textarea
+          name="other"
+          id="other"
+          cols="30"
+          rows="10"
+          placeholder="Enter any other information here"
+        ></textarea>
+        <br> <div class="container">
+          <div class="center">
+            <button class="btn">
+              <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+                <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+              </svg>
+              <span>SUBMIT</span>
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+   
+    
+  </body>
+</html>

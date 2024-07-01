@@ -1,0 +1,70 @@
+
+.container{
+
+
+width: 80%;
+margin: auto;
+padding: 10px;
+box-sizing: border-box; 
+text-align: center;
+margin-top: 60px;
+margin-bottom: 40px;
+}
+
+input, textarea{ 
+    margin: 12px;
+    width: 80%;
+    padding: 9px;
+    border: 2px solid #EEEDEB;
+    border-radius: 13px;
+    -webkit-box-reflect: below 0px linear-gradient(transparent, #0002);
+}
+.btn {
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid black;
+    outline: none;
+    transition: 1s ease-in-out;
+    font-family: "Permanent Marker", cursive;
+  }
+  
+  svg {
+    position: absolute;
+    left: 585px;
+    top: 812px;
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+  }
+  
+  .btn:hover {
+    transition: 1s ease-in-out;
+    background: #597445;
+  }
+  
+  .btn:hover svg {
+    stroke-dashoffset: -480;
+  }
+  
+  .btn span {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+  }
+body{
+    background-image: url(skardu.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bgOnly{
+    background-color: #877869;
+    border-radius: 12px;   
+    font-family: "Permanent Marker", cursive;
+}
+h1{
+  color: white !important;
+}
